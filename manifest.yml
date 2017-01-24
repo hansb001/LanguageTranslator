@@ -16,4 +16,4 @@ declared-services:
     plan: Lite
   LanguageTranslatorLT-LanguageTranslator:
     label: language_translator
-    plan: Advanced
+    plan: advanced
