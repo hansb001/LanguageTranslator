@@ -6,8 +6,8 @@ applications:
   host: LanguageTranslatorLT
   disk_quota: 1024M
   services:
-  - LanguageTranslatorLT-cloudantNoSQLDB
-  - LanguageTranslatorLT-LanguageTranslator
+    - LanguageTranslatorLT-cloudantNoSQLDB
+    - LanguageTranslatorLT-LanguageTranslator
   env:
     NODE_RED_STORAGE_NAME: LanguageTranslatorLT-cloudantNoSQLDB
 declared-services:
