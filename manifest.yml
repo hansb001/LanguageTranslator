@@ -14,3 +14,6 @@ declared-services:
   LanguageTranslatorLT-cloudantNoSQLDB:
     label: cloudantNoSQLDB
     plan: Lite
+  LanguageTranslatorLT-LanguageTranslator:
+    label: language_translator
+    plan: Advanced
